@@ -1,0 +1,33 @@
+Описание к решению Задания 3 (Скрипты)
+В скрипте work_with_preview.py используются следующие стандартные библиотеки Python:
+    1. os;
+    2. xml (xml.etree.ElementTree.ET);
+Результат работы скрипта:
+    1. alias-ы превью, которые используются в уровнях, но не описаны в preview_graphics.xml
+    {'ico_preview_obs_dirt_gold_xx', 'board_yellow22', 'cell_black11', 'ico_croc_crack'}
+    2. уровни (имена файлов), в которых используются неописанные в preview_graphics.xml alias;
+    ['level_135_6.xml', 'level_131_6.xml', 'level_134_6.xml', 'level_132_6.xml', 'level_136_6.xml',
+     'level_5_2_p2.xml', 'level_5_2_p2.xml', 'level_2_2_p2.xml']
+    3. alias-ы первью, которые описаны в   preview_graphics.xml, но неиспользуются ни в одном из уровней
+    {'ico_water', 'ico_preview_module_static_corner_02', 'ico_water_0_3_transporter',
+    'ico_water_2_corner_2_transporter_90', 'ico_puzzle_grass_04', 'ico_preview_wool_gen_bottom',
+    'ico_water_1_3_transporter_90', 'ico_preview_module_active_edge_02', 'ico_preview_module_active_edge_01',
+    'ico_preview_button_yellow', 'ico_preview_wool_gen_filled', 'ico_puzzle_grass_01', 'ico_water_1_2_transporter_90',
+    'ico_preview_module_static_corner_01', 'ico_preview_wool_gen_full', 'ico_preview_module_static_center',
+    'ico_water_0_2_2_transporter', 'ico_preview_button_blue', 'ico_preview_button_yellow_ball', 'ico_water_0_3',
+    'ico_preview_wool_gen', 'ico_puzzle_snow_02', 'ico_water_2_corner_transporter_90', 'ico_water_1_2_transporter',
+    'ico_water_0_4_transporter_90', 'ico_water_0_3_transporter_90', 'ico_water_1_4_transporter_90',
+    'ico_puzzle_snow_03', 'ico_water_square_transporter', 'ico_water_0_2_2_transporter_90', 'board_red',
+    'ico_preview_wool', 'ico_water_2_corner_transporter', 'ico_water_0_4', 'ico_water_0_4_transporter',
+    'ico_preview_module_static_edge_04', 'ico_water_3_transporter', 'ico_water_1_3', 'ico_valentine_gift_711',
+    'ico_water_1_2', 'ico_water_1_4_transporter', 'ico_preview_module_static_edge_02', 'ico_totemic_2',
+    'ico_water_1_4', 'ico_preview_button_grn', 'ico_mask_1', 'ico_preview_module_static_edge_03', 'ico_water_0_2_2',
+    'ico_preview_button_violet', 'ico_christmas_bag', 'ico_water_0_2_1_transporter', 'ico_puzzle_grass_02',
+    'ico_valentine_chest', 'ico_preview_button_blue_ball', 'ico_water_2_parallel_transporter_90', 'ico_pumpkin',
+    'ico_preview_button_red', 'ico_water_3_transporter_90', 'ico_water_0_1_transporter_90', 'angle_red_tl',
+    'ico_water_0_2_1_transporter_90', 'ico_preview_module_active_center', 'ico_preview_button_red_ball',
+    'ico_water_0_1_transporter', 'angle_red_tl_i', 'ico_water_1_3_transporter', 'ico_water_2_parallel_transporter',
+    'ico_totemic_1', 'ico_preview_module_active_corner_04', 'ico_water_1_transporter',
+    'ico_preview_module_static_corner_03', 'ico_preview_button_grn_ball', 'ico_water_square_transporter_90',
+    'ico_puzzle_snow_01', 'ico_water_2_corner_2_transporter', 'ico_preview_pumpkin_fill', 'ico_water_0_1',
+    'ico_water_1_transporter_90', 'ico_mask_2', 'ico_preview_button_violet_ball', 'ico_puzzle_grass_03'}

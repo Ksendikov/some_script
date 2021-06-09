@@ -1,0 +1,7 @@
+Описание к решению Задания 1 (Скрипты)
+В скрипте project_cost.py используются следующие стандартные библиотеки Python:
+    1. os;
+    2. xml (xml.etree.ElementTree.ET);
+    3. re.
+Результат работы скрипта: 15082$ за перевод всех уникальных строк в locale.xml & locale_loading.xml.
+Регулярку украл из https://stackoverflow.com/ :)
